@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang= 'en'>
+    <head>
+        <meta charset='UTF-8'>
+<html>
+<body>
+    <h1>DATI PERSONALI</h1>
+<form action="persona.php" method="post">
+    <lable for="nomCogn">Nome e Cognome</lable></br>
+    <input type="text" id="nomCogn" name="nomCogn"></br>
+    <label for="sc">Stato civile:</label></br>
+    
+    <input type="radio" id="Cognugato" name="fav_language" value="Cognugato">
+    <label for="Cognugato">Cognugato</label><br>
+    <input type="radio" id="nonCogn" name="fav_language" value="nonCogn">
+    <label for="nonCogn">Non Cognugato</label><br>
+    
+    <label for="ai">Aggiornamenti d'interesse</label></br>
+    <input type="checkbox" id="tech" name="tech" value="tech">
+    <label for="tech">Tecnologia</label><br>
+    <input type="checkbox" id="mot" name="mot" value="mot">
+    <label for="mot">Motori</label></br>
+    <input type="checkbox" id="viag" name="viag" value="viag">
+    <label for="viag">Viaggi</label></br>
+    
+    <label for="dhsdns">Dove hai saputo del nostro sito?</label></br>
+    <select name="dhsdns" id="dhsdnsSelect">
+    <option value=""></option>
+    <option value="g">Giornali</option>
+    <option value="t">TV</option>
+    <option value="i">Internet</option>
+    <option value="a">Amici</option>
+    </select></br>
+    <button type="submit">Invia</button>
+    <button type="reset">Reset</button>
+</form>
+</body>
+</html>
