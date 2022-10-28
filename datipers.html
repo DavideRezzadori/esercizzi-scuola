@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang='it'>
+<head>
+    <meta charset='UTF-8'>
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+    <meta name='viewport' content='width=device-width, initial-scale=1.0'>
+    <link rel='stylesheet' href=''>
+<html>
+<body>
+   
+    <fieldset>
+        <legend>DATI PERSONALI</legend>
+        <form action="ricerca.php" method="post">
+            <label for="app">Appellativo</label></br>
+            <select name="app" id="appSelect">
+                <option value=""></option>
+                <option value="sig">Signora</option>
+                <option value="sign">Signore</option>
+                <option value="dot">Dottore</option>
+                <option value="prof">Professore</option>
+            </select></br>
+            <label for="nom">Nome:</label>
+            <input type="text" id="nom" name="nom"></br>
+        
+            <label for="cogn">Cognome:</label>
+            <input type="text" id="cogn" name="cogn"></br>
+        
+            <label for="gen">Genere:</label>
+            <input type="radio" id="mas"  name="fav_language" value="mas">
+            <label for="mas">Maschio</label>
+            <input type="radio" id="fem" name="fav_language" value="fem">
+            <label for="fem">Femmina</label></br>
+        
+            <label for="mail">Ind.E-mail:</label>
+            <input type="text" id="mail" name="mail"></br>
+            
+            <label for="datan">Data di nascita:</label>
+            <input type="data" id="datan" name="datan"></br>
+        
+            <label for="ind">Indirizzo:</label></br>
+            <input type="text" id="ind" name="ind"></br>
+        
+            <button type="submit">Invia</button></br>
+            <button type="reset">Reset</button></br>
+        
+            <a href="home.html">Torna alla home</a>
+        </form>
+    </fieldset>
+
+</body>
+</html>
